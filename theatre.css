@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+}
+
+
+/* START NAV STYLES */
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#title {
+    display: flex;
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+    padding: 0;
+}
+
+.nav-links {
+    display: flex;
+    text-align: right;
+    font-family: Roboto;
+    list-style-type: none;
+    gap: 70px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-size: large;
+    color: white;
+}
+
+/* END NAV STYLES */
+
+/* START HERO IMAGE STYLES */
+.hero-text {
+    font-size: xxx-large;
+    text-align: center;
+}
+
+.hero-image {
+    max-height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.hero-text {
+    color: white;
+    position: absolute;
+    top: 33%;
+    left: 25%;
+}
+
+/* END HERO IMAGE STYLES */
+
+/* START UPCOMING STYLES */
+
+.upcoming {
+    clear: both;
+    border: 2px solid rgb(156, 160, 165);
+    margin-left: 220px;
+    margin-right: 220px;
+    margin-top: 150px;
+}
+
+.upcoming--date {
+    margin-left: 50px;
+    line-height: 18px;
+}
+
+.raisin {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-right: 220px;
+    margin-left: 220px;
+    border-bottom: 1px solid lightslategray;
+    padding-bottom: 30px;
+}
+
+.raisin a {
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+}
+
+.raisin-center-list {
+    list-style-type: none;
+}
+
+.raisin li {
+    margin: 20px;
+}
+
+.raisin-right {}
+
+.raisin-button {
+    padding: 15px 15px;
+    text-decoration: none;
+    border: 1px solid black;
+    background-color: goldenrod;
+}
+
+/* END UPCOMING STYLES */
+
+/* START FOOTER STYLES */
+
+
+
+.footer {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    position: relative;
+}
+
+.footer-image {
+    margin-top: 40px;
+}
+
+footer ul {
+    color: white;
+    font-family: Roboto;
+}
+
+.footer li {
+    margin: 40px;
+    list-style-type: none;
+
+}
+
+
+.pin-solid.icon {
+  color:goldenrod;
+  position: absolute;
+  margin-left: 4px;
+  margin-top: 2px;
+  width: 18px;
+  height: 18px;
+  border: solid 1px currentColor;
+  border-radius: 7px 7px 7px 0;
+  background-color: currentColor;
+  top: 105px;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+.mail.icon {
+    color:goldenrod;
+    position: absolute;
+    margin-left: 2px;
+    margin-top: 4px;
+    width: 25px;
+    height: 18px;
+    border-radius: 1px;
+    border: solid 2px currentColor;
+    top: 160px;
+}
+
+.mobile-solid.icon {
+    color: goldenrod;
+    position: absolute;
+    margin-left: 4px;
+    margin-top: 0px;
+    width: 16px;
+    height: 24px;
+    border-radius: 2px;
+    border-left: solid 1px currentColor;
+    border-right: solid 1px currentColor;
+    border-top: solid 3px currentColor;
+    border-bottom: solid 4px currentColor;
+    top: 218px;
+/* END FOOTER STYLES */
